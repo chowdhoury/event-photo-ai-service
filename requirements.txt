@@ -1,4 +1,4 @@
-# Event Photo AI — AI Service Dependencies
+# Event Photo AI — AI Service Dependencies (Ultra-lightweight ONNX CPU Engine)
 
 # Web framework
 fastapi>=0.100.0
@@ -8,9 +8,7 @@ python-multipart>=0.0.6
 # Settings management
 pydantic-settings>=2.0.0
 
-# Deep learning and inference
-torch>=2.0.0
-torchvision>=0.15.0
+# Lightweight ONNX Inference Engine (Zero PyTorch memory overhead)
 onnxruntime>=1.15.0
 onnx>=1.14.0
 
@@ -19,7 +17,7 @@ opencv-python-headless>=4.7.0
 Pillow>=9.5.0
 scikit-image>=0.20.0
 
-# Face recognition (InsightFace + ArcFace)
+# Face recognition (InsightFace + ArcFace ONNX models)
 insightface>=0.7.3
 
 # Numerical computing
